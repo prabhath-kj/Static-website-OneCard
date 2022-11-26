@@ -44,11 +44,11 @@ header.container {
 .left-section {
   margin: 120;
   padding-left: 150px;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 .OneCard_heading h1 {
-  font-size: 100px;
-  line-height: 120px;
+  font-size: 90px;
+  line-height: 100px;
   color: #fff;
 }
 .OneCard_heading h1 span {
@@ -69,15 +69,15 @@ header.container {
   display: inline-block;
   line-height: 36px;
   text-align: left;
-  font-size: xx-large;
+  font-size: x-large;
 }
 .applyNow {
   display: block;
   outline: 0;
   cursor: pointer;
   border: none;
-  width: 260px;
-  height: 80px;
+  width: 318px;
+  height: 57px;
   border-radius: 35px;
   background-color: #0093f7;
   font-weight: bolder;
