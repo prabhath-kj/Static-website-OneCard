@@ -1,0 +1,282 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+  background-color: #0d1519;
+}
+header {
+  width: 100%;
+  /* background-color: #0d1519; */
+  background-image: url(images/bg\ img.png);
+  height: auto;
+  position: absolute;
+  top: 0;
+}
+header.container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.nav-icon {
+  margin-left: 130px;
+}
+#img-icon {
+  width: 111px;
+  height: auto;
+}
+.bg-img-container {
+  margin-top: 182px;
+  background-image: url(images/bg\ img.png);
+  width: 100%;
+  height: 130vh;
+}
+.bg-img-container .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0px;
+  padding: 10px;
+}
+.left-section {
+  margin: 120;
+  padding-left: 150px;
+  padding-top: 100px;
+}
+.OneCard_heading h1 {
+  font-size: 100px;
+  line-height: 120px;
+  color: #fff;
+}
+.OneCard_heading h1 span {
+  color: #1893f7;
+  text-align: left;
+}
+.flauntMetal {
+  font-size: 80px;
+  line-height: 80px;
+}
+.card-info,
+.flauntMetal {
+  color: #fff;
+  text-align: left;
+}
+.card-info {
+  max-width: 50%;
+  display: inline-block;
+  line-height: 36px;
+  text-align: left;
+  font-size: xx-large;
+}
+.applyNow {
+  display: block;
+  outline: 0;
+  cursor: pointer;
+  border: none;
+  width: 330px;
+  height: 100px;
+  border-radius: 35px;
+  background-color: #0093f7;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: #fff;
+}
+.right-section {
+  width: 50%;
+  height: auto;
+  padding-right: 200px;
+}
+.right-section img {
+  width: 540px;
+  height: auto;
+}
+.fees-section {
+  /* background-image: url(images/bg\ img.png); */
+  width: 100%;
+  height: 100vh;
+  background-color: #0d1519;
+}
+.Fees_Text_Section {
+  margin-top: 300px;
+  text-align: center;
+  padding: 0 15px;
+}
+.No_Hidden_Fees {
+  font-size: 100px;
+  background-color: red;
+  background-image: linear-gradient(
+    90deg,
+    #217ee6 0,
+    #3187d5 18%,
+    #69a798 60%,
+    #fcf2a6 97%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 105px;
+  text-align: center!;
+  position: relative;
+}
+.Fees_Sub_Text {
+  padding: 20px 0;
+  font-size: 80px;
+  line-height: 1.58;
+  color: #fff;
+  text-align: center;
+}
+.powerful_app_section {
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 55px 0;
+  max-width: 100%;
+}
+.hero{
+    text-align: center;
+}
+.hero{
+  width: 100%;
+  height: auto;
+  text-align: end;
+}
+.section-text{
+    padding-right: 60px;
+}
+.section_heading h3{
+    color: #fff;
+    font-size: 60px;
+    line-height: 55px;
+    text-align: end;
+
+}
+.inner_div_subText p{
+    color: #fff;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: end;
+    
+}
+.icon_image{
+    text-align: end;
+}
+.metal_app_section {
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 55px 0;
+    max-width: 75%;
+  }
+  
+  .metal-card{
+    width: 300%;
+    height: auto;
+    text-align: end;
+    
+  }
+  .section-text-text{
+      padding-left: 60px;
+  }
+  .sectionheading h3{
+      color: #fff;
+      font-size: 60px;
+      line-height: 55px;
+      text-align: start;
+  
+  }
+  .innerdivsubText p{
+      color: #fff;
+      font-size: 35px;
+      line-height: 50px;
+      text-align: start;
+      width: 55%;
+      
+  }
+  .iconimage{
+      text-align: start;
+  }
+  .rewards{
+    width: 170%;
+    height: auto;
+    text-align: end;
+    
+  }
+  .suggest-section{
+
+    margin: auto;
+    max-width: 100%;
+  }
+  .suggest-div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
+  .sm\:block{
+    display: block;
+  }
+  .img{
+    width: 107px;
+    height: auto;
+  }
+  .suggest-img img{
+    max-width: 100%;
+    height: auto;
+    padding-top: 50px;
+  }
+  .suggest-heading{
+    color: #0093f7;
+    text-align: center;
+    font-size: 55px;
+  }
+  .suggest-subheading{
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+    line-height: 1.36;
+  }
+  .Banking-partners-image{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 2100%;
+    padding-top: 100px;
+  }
+  .Banking-partners-image img{
+   width: 50%;
+   height: auto;
+  }
+  .CopyRights{
+    max-width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    color: #fff;
+  }
+  .CopyRights p{
+    font-size: x-large;
+    padding-top: 30px;
+  }
+  .Bottom_div{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row-reverse;
+    position: sticky;
+    bottom: 0;
+    background-color: #0d1519;
+    padding: 35px 55px 15px 20px;
+  }
+  .Bottom_Nav_Image{
+    max-width: 50%;
+  }
+  
