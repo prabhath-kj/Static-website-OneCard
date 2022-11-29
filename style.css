@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  max-width: 100%;
 }
 body {
   margin: 0;
@@ -130,153 +131,148 @@ header.container {
 }
 .powerful_app_section {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   padding: 55px 0;
   max-width: 100%;
 }
-.hero{
-    text-align: center;
+.hero {
+  text-align: center;
 }
-.hero{
+.hero {
   width: 100%;
   height: auto;
   text-align: end;
 }
-.section-text{
-    padding-right: 60px;
+.section-text {
+  padding-right: 60px;
 }
-.section_heading h3{
-    color: #fff;
-    font-size: 60px;
-    line-height: 55px;
-    text-align: end;
-
+.section_heading h3 {
+  color: #fff;
+  font-size: 60px;
+  line-height: 55px;
+  text-align: end;
 }
-.inner_div_subText p{
-    color: #fff;
-    font-size: 35px;
-    line-height: 50px;
-    text-align: end;
-    
+.inner_div_subText p {
+  color: #fff;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: end;
 }
-.icon_image{
-    text-align: end;
+.icon_image {
+  text-align: end;
 }
 .metal_app_section {
-    display: flex;
-    flex-direction:row-reverse;
-    align-items: center;
-    justify-content: space-between;
-    padding: 55px 0;
-    max-width: 75%;
-  }
-  
-  .metal-card{
-    width: 300%;
-    height: auto;
-    text-align: end;
-    
-  }
-  .section-text-text{
-      padding-left: 60px;
-  }
-  .sectionheading h3{
-      color: #fff;
-      font-size: 60px;
-      line-height: 55px;
-      text-align: start;
-  
-  }
-  .innerdivsubText p{
-      color: #fff;
-      font-size: 35px;
-      line-height: 50px;
-      text-align: start;
-      width: 55%;
-      
-  }
-  .iconimage{
-      text-align: start;
-  }
-  .rewards{
-    width: 170%;
-    height: auto;
-    text-align: end;
-    
-  }
-  .suggest-section{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  padding: 55px 0;
+  max-width: 75%;
+}
 
-    margin: auto;
-    max-width: 100%;
-  }
-  .suggest-div{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 100%;
-  }
-  .sm\:block{
-    display: block;
-  }
-  .img{
-    width: 107px;
-    height: auto;
-  }
-  .suggest-img img{
-    max-width: 100%;
-    height: auto;
-    padding-top: 50px;
-  }
-  .suggest-heading{
-    color: #0093f7;
-    text-align: center;
-    font-size: 55px;
-  }
-  .suggest-subheading{
-    color: #fff;
-    font-size: 28px;
-    text-align: center;
-    line-height: 1.36;
-  }
-  .Banking-partners-image{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 2100%;
-    padding-top: 100px;
-  }
-  .Banking-partners-image img{
-   width: 50%;
-   height: auto;
-  }
-  .CopyRights{
-    max-width: 100%;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 100px;
-    color: #fff;
-  }
-  .CopyRights p{
-    font-size: x-large;
-    padding-top: 30px;
-  }
-  .Bottom_div{
-    width: 100%;
-    display: flex;
-    justify-content:space-between;
-    flex-direction: row-reverse;
-    position: sticky;
-    bottom: 0;
-    background-color: #0d1519;
-    padding: 35px 55px 15px 20px;
-  }
-  .Bottom_Nav_Image{
-    max-width: 50%;
-  }
-  
+.metal-card {
+  width: 300%;
+  height: auto;
+  text-align: end;
+}
+.section-text-text {
+  padding-left: 60px;
+}
+.sectionheading h3 {
+  color: #fff;
+  font-size: 60px;
+  line-height: 55px;
+  text-align: start;
+}
+.innerdivsubText p {
+  color: #fff;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: start;
+  width: 55%;
+}
+.iconimage {
+  text-align: start;
+}
+.rewards {
+  width: 170%;
+  height: auto;
+  text-align: end;
+}
+.suggest-section {
+  margin: auto;
+  max-width: 100%;
+}
+.suggest-div {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+.sm\:block {
+  display: block;
+}
+.img {
+  width: 107px;
+  height: auto;
+}
+.suggest-img img {
+  max-width: 100%;
+  height: auto;
+  padding-top: 50px;
+}
+.suggest-heading {
+  color: #0093f7;
+  text-align: center;
+  font-size: 55px;
+}
+.suggest-subheading {
+  color: #fff;
+  font-size: 28px;
+  text-align: center;
+  line-height: 1.36;
+}
+.Banking-partners-image {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 2100%;
+  padding-top: 100px;
+}
+.Banking-partners-image img {
+  width: 50%;
+  height: auto;
+}
+.CopyRights {
+  max-width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  color: #fff;
+}
+.CopyRights p {
+  font-size: x-large;
+  padding-top: 30px;
+}
+.Bottom_div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  position: sticky;
+  bottom: 0;
+  background-color: #0d1519;
+  padding: 35px 55px 15px 20px;
+}
+.Bottom_Nav_Image {
+  width: 50%;
+}
+.bottom_img {
+  object-fit: cover;
+}
